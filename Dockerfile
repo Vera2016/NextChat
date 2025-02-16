@@ -1,4 +1,4 @@
-FROM node:18-alpine AS base
+FROM arm32v7/node:18-alpine AS base
 
 FROM base AS deps
 
